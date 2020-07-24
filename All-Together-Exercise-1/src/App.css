@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table {
+  border-collapse: collapse;
+  color: black;
+  margin: 30px auto 0;
+}
+
+th {
+  background: #ccc;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background: #efefef;
+}
+
+.error-message {
+  margin: 15px;
+}
+
+.error-message span {
+  color: red;
+  padding: 5px 15px;
+  border: 1px solid red;
+  display: inline;
+}
+
+/* Helper Classes */
+.show {
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
